@@ -1,0 +1,34 @@
+{
+  "name": "@brendon1555/panda-preset-unique-utilities",
+  "version": "0.1.0",
+  "description": "The base preset utilities for Panda CSS but with unique classNames",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "author": "Brendon Lees <brendon1555@gmail.com>",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format=esm,cjs --dts",
+    "build-fast": "tsup src/index.ts --format=esm,cjs --no-dts",
+    "dev": "pnpm build-fast --watch",
+    "lint": "eslint . --ext .ts",
+    "prettier": "prettier --check .",
+    "prettier-fix": "prettier --write ."
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@pandacss/types": "^0.15.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "eslint": "^8.49.0",
+    "prettier": "^3.0.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
