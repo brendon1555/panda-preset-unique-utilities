@@ -10,6 +10,22 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "panda",
+    "css",
+    "pandacss",
+    "styling",
+    "preset",
+    "chakra-ui",
+    "atomic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendon1555/panda-preset-unique-utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brendon1555/panda-preset-unique-utilities/issues"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format=esm,cjs --dts",
     "build-fast": "tsup src/index.ts --format=esm,cjs --no-dts",
