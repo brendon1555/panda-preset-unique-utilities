@@ -1,6 +1,6 @@
 {
   "name": "@brendon1555/panda-preset-unique-utilities",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The base preset utilities for Panda CSS but with unique classNames",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
