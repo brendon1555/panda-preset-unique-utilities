@@ -9,6 +9,5 @@ export const list: UtilityConfig = {
   },
   listStyleImage: {
     className: "list-img",
-    values: "assets",
   },
 };

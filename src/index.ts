@@ -5,7 +5,9 @@ import { utilities } from "./utilities";
 const definePreset = <T extends Preset>(preset: T) => preset;
 
 export const preset = definePreset({
-  utilities,
+  utilities: {
+    extend: utilities,
+  },
 });
 
 export default preset;
