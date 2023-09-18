@@ -6,13 +6,13 @@ Unique className for every utility in `@pandacss/preset-base`. Useful when using
 
 ```bash
 # npm
-npm install -D @brendon1555/panda-preset-unique-utils
+npm install -D @brendon1555/panda-preset-unique-utilities
 
 # yarn
-yarn add -D @brendon1555/panda-preset-unique-utils
+yarn add -D @brendon1555/panda-preset-unique-utilities
 
 # pnpm
-pnpm add -D @brendon1555/panda-preset-unique-utils
+pnpm add -D @brendon1555/panda-preset-unique-utilities
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ This example assumes you are not using `eject: true` in your PandaCSS configurat
 ```ts
 import { defineConfig } from "@pandacss/dev";
 
-import uniqueUtilsPreset from "@brendon1555/panda-preset-unique-utils";
+import uniqueUtilsPreset from "@brendon1555/panda-preset-unique-utilities";
 
 export default defineConfig({
   presets: [
