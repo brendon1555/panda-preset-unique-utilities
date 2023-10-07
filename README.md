@@ -2,6 +2,8 @@
 
 Unique className for every utility in `@pandacss/preset-base`. Useful when using atomic styling and you want to avoid conflicts between utilities or setting up deduplication of classes based on properties.
 
+This preset is required when using [@brendon1555/panda-cx-deduplicator](https://github.com/brendon1555/panda-cx-deduplicator)
+
 ## Installation
 
 ```bash
